@@ -1,0 +1,41 @@
+.newTaskDiv {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.addTaskField {
+    width: 40vw;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 20px;
+    border: none;
+    border-bottom: 2px solid #d1d3d4;
+}
+
+.addTaskField:focus {
+    outline: none;
+    border: 1px solid #ff8e44;
+    border-radius: 3px;
+}
+
+.addTaskButton {
+    width: 80px;
+    color: #FFFF;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ff8e44;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.addTaskButton:active {
+    background-color: #b0622f;
+}
